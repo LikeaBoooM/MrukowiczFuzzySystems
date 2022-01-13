@@ -1,1 +1,1 @@
-web: gunicorn git push heroku mastercore.wsgi --log-file -
+web: gunicorn core.wsgi --log-file -
