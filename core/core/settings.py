@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-kb)j)i938olo-xhyhp6mzambvz$xx+1)k3@=h&$^f)-(ttx7or
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fuzzyappti.herokuapp.com', 'localhost']
 
 
 # Application definition
