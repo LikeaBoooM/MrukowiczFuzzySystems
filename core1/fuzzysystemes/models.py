@@ -10,3 +10,10 @@ class Celcius(models.Model):
 
     def __str__(self):
         return str(self.temeperature)
+
+
+class Output(models.Model):
+    value = models.FloatField(max_length=100)
+
+    def __str__(self):
+        return str(self.value)
